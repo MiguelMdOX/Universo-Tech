@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Quiz</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap">
+</head>
+
+<style>
+
+body{
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+	font-family: 'Poppins';
+	background: #0b1020;
+	color: #ffffff;
+}
+
+header{
+	background:rgba(0,0,0,0.3);
+	box-sizing:border-box;
+	padding: 20px 65px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	width: 100%;
+	backdrop-filter:blur(10px);
+	z-index:1000;
+}
+
+nav a{
+	color: #ffffff;
+	text-decoration: none;
+	margin-left: 20px;
+}
+
+nav a:hover{
+	color: #00bfff;
+}
+
+.quiz{
+	padding:160px 60px 20px;
+	max-width:900px;
+	margin:auto;
+}
+
+.quiz h1{
+	text-align:center;
+	font-size:60px;
+	margin-bottom:15px;
+}
+
+.quiz span{
+	color:#00bfff;
+}
+
+.quiz p{
+	text-align:center;
+	color:#d0d0d0;
+	margin-bottom:50px;
+}
+
+.pergunta{
+	background:#151d35;
+	padding:30px;
+	border-radius:15px;
+	margin-bottom:25px;
+	border:1px solid rgba(255,255,255,0.1);
+}
+
+.pergunta h2{
+	color:#00bfff;
+	margin-bottom:20px;
+}
+
+label{
+	display:block;
+	padding:12px;
+	margin-bottom:10px;
+	border-radius:10px;
+	cursor:pointer;
+}
+
+label:hover{
+	background:rgba(255,255,255,0.05);
+}
+
+input{
+	margin-right:10px;
+}
+
+.gabarito{
+	background:#151d35;
+	padding:25px;
+	border-radius:15px;
+	margin-top:40px;
+	border:1px solid rgba(255,255,255,0.1);
+}
+
+summary{
+	cursor:pointer;
+	font-size:22px;
+	font-weight:600;
+	color:#00bfff;
+}
+
+.gabarito p{
+	text-align:left;
+	margin:15px 0;
+	color:#d0d0d0;
+}
+
+footer{
+	background: #050814;
+	text-align: center;
+	padding: 5px;
+	margin-top: 40px;
+}
+
+</style>
+
+<body>
+
+<header>
+
+	<h2>Universo Tech</h2>
+
+	<nav>
+
+		<a href="index.html">
+			Início
+		</a>
+
+		<a href="hardware.html">
+			Hardware
+		</a>
+
+		<a href="software.html">
+			Software
+		</a>
+
+		<a href="internet.html">
+			Internet
+		</a>
+
+		<a href="ia.html">
+			IA
+		</a>
+		
+		<a href="quiz.html">
+			Quiz
+		</a>
+
+	</nav>
+
+</header>
+
+<section class="quiz">
+
+	<h1>
+		Quiz de <span>Tecnologia</span>
+	</h1>
+
+	<p>
+		Teste seus conhecimentos sobre Hardware, Software, Internet e Inteligência Artificial.
+	</p>
+
+	<div class="pergunta">
+
+		<h2>
+			1. O que é Hardware?
+		</h2>
+
+		<label>
+			<input type="radio" name="q1">
+			Parte física do computador
+		</label>
+		
+		<label>
+			<input type="radio" name="q1">
+			Um aplicativo
+		</label>
+		
+		<label>
+			<input type="radio" name="q1">
+			Um tipo de internet
+		</label>
+
+	</div>
+
+	<div class="pergunta">
+
+		<h2>
+			2. O que é Software?
+		</h2>
+
+		<label>
+			<input type="radio" name="q2">
+			Peças do computador
+		</label>
+		
+		<label>
+			<input type="radio" name="q2">
+			Programas e aplicativos
+		</label>
+		
+		<label>
+			<input type="radio" name="q2">
+			Um cabo de rede
+		</label>
+
+	</div>
+
+	<div class="pergunta">
+
+		<h2>
+			3. Qual é a principal função da Internet?
+		</h2>
+
+		<label>
+			<input type="radio" name="q3">
+			Conectar pessoas e dispositivos
+		</label>
+		
+		<label>
+			<input type="radio" name="q3">
+			Criar computadores
+		</label>
+		
+		<label>
+			<input type="radio" name="q3">
+			Substituir sistemas operacionais
+		</label>
+
+	</div>
+
+	<div class="pergunta">
+
+		<h2>
+			4. O que é Inteligência Artificial?
+		</h2>
+
+		<label>
+			<input type="radio" name="q4">
+			Uma peça do computador
+		</label>
+		
+		<label>
+			<input type="radio" name="q4">
+			Tecnologia que aprende e analisa dados
+		</label>
+		
+		<label>
+			<input type="radio" name="q4">
+			Um tipo de monitor
+		</label>
+
+	</div>
+
+	<details class="gabarito">
+
+		<summary>
+			Ver Gabarito
+		</summary>
+
+		<p>
+			1. Parte física do computador
+		</p>
+		
+		<p>
+			2. Programas e aplicativos
+		</p>
+		
+		<p>
+			3. Conectar pessoas e dispositivos
+		</p>
+		
+		<p>
+			4. Tecnologia que aprende e analisa dados
+		</p>
+
+	</details>
+
+</section>
+
+<footer>
+
+	<h3>
+		Universo Tech
+	</h3>
+
+	<p>
+		Site desenvolvido em HTML e CSS • Projeto criado por Miguel Moreira de Oliveira
+	</p>
+
+</footer>
+
+</body>
+
+</html>

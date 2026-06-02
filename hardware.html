@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Hardware</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap">
+</head>
+
+<style>
+
+body{
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+	font-family: 'Poppins';
+	background: #0b1020;
+	color: #ffffff;
+}
+
+header{
+	background:rgba(0,0,0,0.3);
+	box-sizing:border-box;
+	padding: 20px 65px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	width: 100%;
+	backdrop-filter:blur(10px);
+	z-index:1000;
+}
+
+nav a{
+	color: #ffffff;
+	text-decoration: none;
+	margin-left: 20px;
+}
+
+nav a:hover{
+	color: #00bfff;
+}
+
+.paghardware{
+	padding: 160px 20px 60px;
+	text-align: center;
+}
+
+.ctdhardware{
+	max-width: 900px;
+	margin: auto;
+}
+
+.paghardware h1{
+	font-size: 60px;
+}
+
+.paghardware span{
+	color: #00bfff;
+}
+
+.paghardware p{
+	font-size: 18px;
+	color: #d0d0d0;
+}
+
+.informacoes{
+	padding: 60px 20px;
+}
+
+.informacoes h2{
+	text-align: center;
+	margin-bottom: 70px;
+	margin-top: 20px;
+	font-size: 40px;
+}
+
+.cartas{
+	display: flex;
+	gap: 50px;
+	flex-wrap: wrap;
+	justify-content: center;
+	max-width: 800px;
+	margin: 0 auto
+}
+
+.carta{
+	background: #151d35;
+	width: 265px;
+	height: 320px;
+	padding: 35px;
+	border-radius: 15px;
+	transition: 0.5s;
+	border:1px solid rgba(255,255,255,0.1);
+}
+
+.carta:hover{
+	transform: translateY(-10px);
+	box-shadow: 0 0 20px #38bdf8;
+	border-color:#00c3ff;
+}
+
+.carta h3{
+	margin-bottom: 17px;
+	font-size: 27px;
+	margin-top: 10px;
+	color: #00bfff;
+}
+
+.carta p{
+	color: #cfcfcf;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+footer{
+	background: #050814;
+	text-align: center;
+	padding: 5px;
+	margin-top: 40px;
+}
+
+</style>
+
+<body>
+
+<header>
+
+	<h2>Universo Tech</h2>
+
+	<nav>
+	
+		<a href="index.html">
+			Início
+		</a>
+		
+		<a href="hardware.html">
+			Hardware
+		</a>
+		
+		<a href="software.html">
+			Software
+		</a>
+		
+		<a href="internet.html">
+			Internet
+		</a>
+		
+		<a href="ia.html">
+			IA
+		</a>
+		
+		<a href="quiz.html">
+			Quiz
+		</a>
+	
+	</nav>
+
+</header>
+
+<section class="paghardware">
+
+	<div class="ctdhardware">
+
+		<h1>
+			O que é <span>Hardware</span>?
+		</h1>
+
+		<p>
+			Hardware é toda a parte física de um computador ou dispositivo eletrônico.
+			Isso significa tudo aquilo que você pode tocar, como o teclado, o mouse, o monitor e as peças internas da máquina.
+		</p>
+
+		<p>
+			Ele é essencial para o funcionamento de qualquer sistema, porque é o hardware que executa as tarefas que o software manda.
+			Sem ele, nenhum programa ou aplicativo conseguiria funcionar.
+		</p>
+
+		<p>
+			Em outras palavras, o hardware é a "estrutura" do computador, responsável por fazer tudo acontecer na prática:
+			processar informações, armazenar dados e exibir resultados para o usuário.
+		</p>
+
+	</div>
+
+</section>
+
+<section class="informacoes">
+
+	<h2>Principais Componentes do Hardware</h2>
+
+	<div class="cartas">
+
+		<div class="carta">
+			
+			<h3>
+				Processador (CPU)
+			</h3>
+			
+			<p>
+				O processador é considerado o cérebro do computador.
+				Ele é responsável por executar todas as instruções e cálculos do sistema,
+				fazendo com que os programas funcionem corretamente e rapidamente.
+			</p>
+			
+		</div>
+
+		<div class="carta">
+		
+			<h3>
+				Memória RAM
+			</h3>
+			
+			<p>
+				A memória RAM guarda temporariamente as informações que estão sendo usadas no momento.
+				Quanto mais RAM o computador tiver, mais rápido ele consegue executar várias tarefas ao mesmo tempo.
+			</p>
+			
+		</div>
+
+		<div class="carta">
+		
+			<h3>
+				Placa de Vídeo (GPU)
+			</h3>
+			
+			<p>
+				A placa de vídeo é responsável por gerar imagens, vídeos e gráficos.
+				Ela é muito importante em jogos, edição de vídeo e programas que exigem alta qualidade visual.
+			</p>
+			
+		</div>
+
+		<div class="carta">
+		
+			<h3>
+				SSD / HD
+			</h3>
+			
+			<p>
+				Esses são os dispositivos de armazenamento.
+				Eles guardam arquivos, fotos, vídeos, jogos e o sistema operacional.
+				O SSD é mais rápido, enquanto o HD tem mais espaço por um custo menor.
+			</p>
+			
+		</div>
+
+	</div>
+
+</section>
+
+<footer>
+	
+	<h3>
+		Universo Tech
+	</h3>
+	
+	<p>
+		Site desenvolvido em HTML e CSS • Projeto criado por Miguel Moreira de Oliveira
+	</p>
+	
+</footer>
+
+</body>
+
+</html>
